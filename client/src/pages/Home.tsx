@@ -614,7 +614,7 @@ export default function Home() {
               <ul className="space-y-3 text-gray-400 text-sm">
                 <li className="flex items-start gap-2">
                   <Phone className="w-4 h-4 mt-1 flex-shrink-0 text-orange-500" />
-                  <span>+91 (Contact Number)</span>
+                  <span>+91 8586877073</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Mail className="w-4 h-4 mt-1 flex-shrink-0 text-orange-500" />
