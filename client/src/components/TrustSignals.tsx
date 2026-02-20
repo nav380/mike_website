@@ -42,14 +42,14 @@ const achievements = [
 
 // Placeholder partner logos - user can replace with actual logos
 const partners = [
-  { name: "Partner 1", logo: "/public/images/sponsors/1.png" },
-  { name: "Partner 2", logo: "/public/images/sponsors/2.png" },
-  { name: "Partner 3", logo: "/public/images/sponsors/3.png" },
-  { name: "Partner 4", logo: "/public/images/sponsors/4.png" },
-  { name: "Partner 5", logo: "/public/images/sponsors/5.png" },
-  { name: "Partner 6", logo: "/public/images/sponsors/9.png" },
-  { name: "Partner 7", logo: "/public/images/sponsors/7.png" },
-  { name: "Partner 8", logo: "/public/images/sponsors/11.png" }
+  { name: "Partner 1", logo: "/images/sponsors/1.png" },
+  { name: "Partner 2", logo: "/images/sponsors/2.png" },
+  { name: "Partner 3", logo: "/images/sponsors/3.png" },
+  { name: "Partner 4", logo: "/images/sponsors/4.png" },
+  { name: "Partner 5", logo: "/images/sponsors/5.png" },
+  { name: "Partner 6", logo: "/images/sponsors/9.png" },
+  { name: "Partner 7", logo: "/images/sponsors/7.png" },
+  { name: "Partner 8", logo: "/images/sponsors/11.png" }
 ];
 
 export default function TrustSignals() {
