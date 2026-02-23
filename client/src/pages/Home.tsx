@@ -176,13 +176,10 @@ export default function Home() {
         <div className="container mx-auto px-4 py-4" >
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center shadow-lg shadow-orange-500/50">
-                <span className="text-white font-bold text-xl">M</span>
+              <div className=" rounded-lg flex items-center justify-center shadow-lg ">
+                <img src="/images/mike/white logo mike360x.png" alt="MIKE Events Logo" className="w-24 h-12 scale-200" />
               </div>
-              <div>
-                <h1 className="text-xl font-bold text-white leading-none">MIKE Events</h1>
-                <p className="text-xs text-orange-400">Together We Make Magic</p>
-              </div>
+
             </div>
 
             <div className="hidden md:flex items-center space-x-8">
@@ -573,18 +570,16 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center shadow-lg shadow-orange-500/50">
-                  <span className="text-white font-bold text-xl">M</span>
+              <div className=" items-center space-x-2 mb-4">
+                <div className=" rounded-lg flex items-center justify-center shadow-lg ">
+                  <img src="/images/mike/white logo mike360x.png" alt="MIKE Events Logo" className="w-24 h-12 scale-200" />
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold leading-none">MIKE Events</h3>
-                  <p className="text-sm text-orange-400">Together We Make Magic</p>
-                </div>
+
+
+                <p className="text-gray-400 text-sm">
+                  India's premier MICE & event management company
+                </p>
               </div>
-              <p className="text-gray-400 text-sm">
-                India's premier MICE & event management company
-              </p>
             </div>
 
             <div>

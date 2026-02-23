@@ -67,7 +67,7 @@ export default function PortfolioGallery() {
       imageUrl: "/images/events/2.png",
       description: "High-profile product launch with media coverage",
       client: "APIC",
-      attendees: "150",
+      attendees: "550+",
       year: "2023"
     },
     {
@@ -117,7 +117,7 @@ export default function PortfolioGallery() {
       imageUrl: "/images/events/9.png",
       description: "Annual meeting of the BATHAK association with workshops and networking sessions",
       client: "DB power ltd",
-      attendees: "100",
+      attendees: "300+",
       year: "2024"
     },
     {
@@ -157,7 +157,7 @@ export default function PortfolioGallery() {
       imageUrl: "/images/events/13.png",
       description: " National education conference with workshops, keynote speakers, and student engagement activities",
       client: "HRD ministry",
-      attendees: "80",
+      attendees: "900+",
       year: "2025"
     }
   ];

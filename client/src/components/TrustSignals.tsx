@@ -59,7 +59,7 @@ export default function TrustSignals() {
         {/* Achievements Grid */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <Badge className="mb-4 bg-orange-400 text-white border-2 border-gray-800 px-3 py-1">
+            <Badge className="mb-4 bg-red-600 text-white border-2 border-gray-800 px-3 py-1">
               Trust & Excellence
             </Badge>
             <h2 className="text-white mb-4">

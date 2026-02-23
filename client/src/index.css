@@ -49,9 +49,9 @@
 
 :root {
   /* Brand Colors - Dark Theme with Saffron */
-  --saffron: #ff9933;
-  --saffron-light: #ffb366;
-  --saffron-dark: #ff8000;
+  --saffron: #d24130;
+  --saffron-light: #d24130;
+  --saffron-dark: #d24130;
   --deep-black: #0a0a0a;
   --charcoal: #1a1a1a;
   --dark-gray: #2a2a2a;
@@ -222,7 +222,7 @@
   
   /* Gradient Backgrounds - Dark Theme */
   .gradient-saffron {
-    background: linear-gradient(135deg, #ff9933 0%, #ff8000 100%);
+    background: linear-gradient(135deg, #d24130 0%, #d24130 100%);
   }
   
   .gradient-dark {

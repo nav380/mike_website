@@ -29,22 +29,6 @@ const videoTestimonials: VideoTestimonial[] = [
   },
   {
     id: 2,
-    title: "Corporate Event Excellence",
-    clientName: "Priya Sharma",
-    company: "Tech Solutions India",
-    videoUrl: "/videos/t2.mp4",
-    thumbnailUrl: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=400&h=700&fit=crop"
-  },
-  {
-    id: 3,
-    title: "Exhibition Management",
-    clientName: "Amit Patel",
-    company: "Leading Pharma Company",
-    videoUrl: "/videos/t3.mp4",
-    thumbnailUrl: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=400&h=700&fit=crop"
-  },
-  {
-    id: 4,
     title: "International Conference",
     clientName: "Sarah Johnson",
     company: "Global Tech Corp",
@@ -52,7 +36,7 @@ const videoTestimonials: VideoTestimonial[] = [
     thumbnailUrl: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=400&h=700&fit=crop"
   },
   {
-    id: 5,
+    id: 3,
     title: "Incentive Travel Program",
     clientName: "Vikram Singh",
     company: "Finance Corporation",
@@ -60,7 +44,7 @@ const videoTestimonials: VideoTestimonial[] = [
     thumbnailUrl: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400&h=700&fit=crop"
   },
   {
-    id: 6,
+    id: 4,
     title: "Association Annual Meeting",
     clientName: "Meera Reddy",
     company: "National Engineering Association",
@@ -68,37 +52,22 @@ const videoTestimonials: VideoTestimonial[] = [
     thumbnailUrl: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=400&h=700&fit=crop"
   },
   {
-    id: 7,
+    id: 5,
     title: "Product Launch Event",
-    clientName: "Rahul Desai",
+    clientName: "Anita Desai",
     company: "NextGen Tech",
     videoUrl: "/videos/t7.mp4",
-    thumbnailUrl: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=700&fit=crop"
+    thumbnailUrl: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=700&fit=crop"
   },
   {
-    id: 8,
+    id: 6,
     title: "Team Building Retreat",
-    clientName: "Anita Kapoor",
+    clientName: "Maya Kapoor",
     company: "Creative Minds",
     videoUrl: "/videos/t8.mp4",
-    thumbnailUrl: "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?w=400&h=700&fit=crop"
-  },
-  {
-    id: 9,
-    title: "Annual Gala Night",
-    clientName: "Vivek Malhotra",
-    company: "Luxury Events Co.",
-    videoUrl: "/videos/t9.mp4",
-    thumbnailUrl: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&h=700&fit=crop"
-  },
-  {
-    id: 10,
-    title: "Charity Fundraiser Event",
-    clientName: "Sonal Mehta",
-    company: "Helping Hands Foundation",
-    videoUrl: "/videos/t10.mp4",
-    thumbnailUrl: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=700&fit=crop"
+    thumbnailUrl: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=700&fit=crop"
   }
+  
 ];
 
 
@@ -137,7 +106,7 @@ export default function VideoTestimonialsSection() {
         </div>
 
         {/* Vertical Video Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6 max-w-7xl mx-auto">
           {videoTestimonials.map((testimonial) => (
             <div
               key={testimonial.id}
