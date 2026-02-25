@@ -94,7 +94,7 @@ export default function VideoTestimonialsSection() {
     <section id="video-testimonials" className="py-20 bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <Badge className="mb-4 bg-orange-400 text-white border-2 border-gray-800 px-3 py-1">
+          <Badge className="mb-4 bg-orange-400 text-white border-2 border-gray-800 px-3 py-1 text-md">
             Video Testimonials
           </Badge>
           <h2 className="text-white mb-4">
