@@ -22,7 +22,7 @@ const industries = [
     name: "Healthcare & Pharma",
     icon: Stethoscope,
     description: "Medical conferences, CME programs, pharmaceutical product launches, and healthcare symposiums with regulatory compliance.",
-    events: "150+ Events",
+    events: "200+ Events",
     color: "terracotta"
   },
   {
@@ -36,7 +36,7 @@ const industries = [
     name: "Corporate & Business",
     icon: Briefcase,
     description: "Annual general meetings, board meetings, corporate retreats, team building events, and leadership summits.",
-    events: "180+ Events",
+    events: "250+ Events",
     color: "coral"
   },
   {
