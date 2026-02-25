@@ -42,7 +42,7 @@ export default function SEOHead() {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "MIKE Events India",
-      "image": "https://mikevents.in/logo.png",
+      "image": "/images/mike/white logo mike360x.png",
       "priceRange": "$$",
       "telephone": "+91-98765-43210",
       "address": {

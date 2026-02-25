@@ -81,7 +81,7 @@ export default function IndustryExpertise() {
     <section className="py-20 bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <Badge className="mb-4 bg-orange-500 text-white border-2 border-gray-800 px-3 py-1">
+          <Badge className="mb-4 bg-orange-500 text-white border-2 border-gray-800 px-3 py-1 text-md">
             Industry Expertise
           </Badge>
           <h2 className="text-white mb-4">

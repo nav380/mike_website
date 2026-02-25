@@ -195,7 +195,7 @@ export default function PortfolioGallery() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <Badge className="mb-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white border-0 px-4 py-1">
+          <Badge className="mb-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white border-0 px-4 py-1 text-md">
             Our Portfolio
           </Badge>
           <h2 className="text-white mb-4">

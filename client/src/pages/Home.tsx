@@ -134,8 +134,8 @@ export default function Home() {
 
   const stats = [
     { value: "10+", label: "Years Excellence", icon: Award },
-    { value: "800+", label: "Successful Events", icon: Calendar },
-    { value: "200+", label: "Happy Clients", icon: Heart },
+    { value: "1000+", label: "Successful Events", icon: Calendar },
+    { value: "700+", label: "Happy Clients", icon: Heart },
     { value: "50+", label: "Team Members", icon: Users }
   ];
 
@@ -230,7 +230,7 @@ export default function Home() {
             <p className="text-xl md:text-2xl text-white/95 mb-10 max-w-3xl mx-auto leading-relaxed slide-up">
               From intimate meetings to grand conferences, we transform your vision into unforgettable experiences.
               <span className="font-bold text-orange-300"> 10+ years of excellence</span>,
-              <span className="font-bold text-orange-200"> 800+ successful events</span>, and counting.
+              <span className="font-bold text-orange-200"> 1000+ successful events</span>, and counting.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 scale-in">
@@ -259,11 +259,11 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-2">
                 <Calendar className="w-5 h-5 text-orange-300" />
-                <span>800+ Events</span>
+                <span>1000+ Events</span>
               </div>
               <div className="flex items-center gap-2">
                 <Heart className="w-5 h-5 text-orange-300" />
-                <span>200+ Happy Clients</span>
+                <span>700+ Happy Clients</span>
               </div>
             </div>
           </div>
@@ -422,7 +422,7 @@ export default function Home() {
                       variant="ghost"
                       className="text-orange-500 hover:text-orange-400 p-0 h-auto group-hover:translate-x-2 transition-transform"
                     >
-                      Learn More <ArrowRight className="ml-2 w-4 h-4" />
+                      <a href="#contact" className="flex">Learn More <ArrowRight className="ml-2 w-4 h-4" /></a>
                     </Button>
                   </CardContent>
                 </Card>
