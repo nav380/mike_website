@@ -221,7 +221,7 @@ export default function ContactSection() {
           {/* Google Map */}
           <div className="rounded-2xl overflow-hidden border border-gray-800 shadow-xl">
             
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.0591621872823!2d77.17961087601311!3d28.507867689729995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1ef231229f05%3A0x920c211472263e46!2sMike%20Hospitality%20LLP!5e0!3m2!1sen!2sin!4v1771398197429!5m2!1sen!2sin" width="600" height="450"   loading="lazy" ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.0591621872823!2d77.17961087601311!3d28.507867689729995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1ef231229f05%3A0x920c211472263e46!2sMike%20Hospitality%20LLP!5e0!3m2!1sen!2sin!4v1771398197429!5m2!1sen!2sin"  height="450"   loading="lazy" ></iframe>
           </div>
 
         </div>
